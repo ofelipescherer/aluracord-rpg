@@ -11,10 +11,10 @@
 	},
 	"dependencies": {
 		"@skynexui/components": "^1.23.7",
-		"next": "latest",
+		"next": "^12.0.8",
 		"prettier": "^2.5.1",
-		"react": "17.0.2",
-		"react-dom": "17.0.2"
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
 	},
 	"devDependencies": {
 		"eslint": "^8.7.0",

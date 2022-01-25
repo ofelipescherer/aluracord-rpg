@@ -3,15 +3,15 @@
 		"commonjs": true,
 		"es2021": true
 	},
-	"extends": ["plugin:react/recommended", "airbnb"],
+	"extends": ["plugin:react/recommended", "airbnb", "prettier"],
 	"parserOptions": {
 		"ecmaFeatures": {
 			"jsx": true
 		},
 		"ecmaVersion": "latest"
 	},
-	"plugins": ["react"],
-	"rules": {},
+	"plugins": ["react", "prettier"],
+	"rules": { "prettier/prettier": "error" },
 	"lint": "eslint ./",
 	"lintFix": "eslint ./ --fix"
 }
